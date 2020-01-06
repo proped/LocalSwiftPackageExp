@@ -16,17 +16,17 @@ struct ContentView: View {
                 .font(.custom(CustomFontStyle.headerFont.name,
                               size: CustomFontStyle.headerFont.size))
             Spacer()
-            Text("Hello, World! With \(CustomFontStyle.titleFont.name), \(CustomFontStyle.headerFont.size)")
+            Text("Hello, World! With \(CustomFontStyle.titleFont.name), \(CustomFontStyle.titleFont.size)")
                 .font(.custom(CustomFontStyle.titleFont.name,
                               size: CustomFontStyle.titleFont.size))
-            Text("Hello, World! With \(CustomFontStyle.subTitleFont.name), \(CustomFontStyle.headerFont.size)")
+            Text("Hello, World! With \(CustomFontStyle.subTitleFont.name), \(CustomFontStyle.subTitleFont.size)")
                 .font(.custom(CustomFontStyle.subTitleFont.name,
                               size: CustomFontStyle.subTitleFont.size))
-            Text("Hello, World! With \(CustomFontStyle.bodyFont.name), \(CustomFontStyle.headerFont.size)")
+            Text("Hello, World! With \(CustomFontStyle.bodyFont.name), \(CustomFontStyle.bodyFont.size)")
                 .font(.custom(CustomFontStyle.bodyFont.name,
                               size: CustomFontStyle.bodyFont.size))
             Spacer()
-            Text("Hello, World! With \(CustomFontStyle.footerFont.name), \(CustomFontStyle.headerFont.size)")
+            Text("Hello, World! With \(CustomFontStyle.footerFont.name), \(CustomFontStyle.footerFont.size)")
                 .font(.custom(CustomFontStyle.footerFont.name,
                               size: CustomFontStyle.footerFont.size))
         }
